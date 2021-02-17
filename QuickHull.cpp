@@ -1,3 +1,5 @@
+// Code for quick hull.
+// The QuickHull algorithm is a Divide and Conquer algorithm for convex hull.
 #include<bits/stdc++.h>
 using namespace std;
 #define ll                  long long
