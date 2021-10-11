@@ -13,11 +13,12 @@ using namespace std;
 #define pii                 pair<ll,ll>
 #define all(c)              c.begin(),c.end()
 #define sz(c)               c.size()
+#define fastio              ios::sync_with_stdio(false)
 ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 int main()
 {
-    ios::sync_with_stdio(false);
+    fastio;
     cin.tie(0);
     cout.tie(0);
     ll n,w;
