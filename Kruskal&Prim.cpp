@@ -14,6 +14,7 @@ using namespace std;
 #define pii                 pair<ll,ll>
 #define all(c)              c.begin(),c.end()
 #define sz(c)               c.size()
+#define fastio              ios::sync_with_stdio(false)
 
 ll root(vi &dsu,ll x)
 {
@@ -87,7 +88,7 @@ vector< vector< pii > > kruskal(vector< vector< pii > > &g,ll n,ll m)
 }
 int main()
 {
-    ios::sync_with_stdio(false);
+    fastio;
     cin.tie(0);
     cout.tie(0);
     ll n,m;
