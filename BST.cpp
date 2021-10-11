@@ -12,6 +12,7 @@ using namespace std;
 #define pii                 pair<int,int>
 #define all(c)              c.begin(),c.end()
 #define sz(c)               c.size()
+#define fastio              ios_base::sync_with_stdio(false)
 ll treesize=0;
 ll Max(ll a, ll b) { return a > b ? a : b; }
 ll Min(ll a, ll b) { return a < b ? a : b; }
@@ -241,7 +242,7 @@ int main()
 {
     //freopen("input.txt","r",stdin);
     //freopen("output.txt","w",stdout);
-    ios_base::sync_with_stdio(false);
+    fastio;
     cin.tie(0);
     cout.tie(0);
     ll q;
