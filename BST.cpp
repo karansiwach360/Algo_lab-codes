@@ -170,6 +170,7 @@ bool del(ll a)
         return true;
     }
 }
+
 /*void inorder(node* temp)
 {
     node *cnode;
@@ -182,6 +183,7 @@ bool del(ll a)
     }
     return;
 }*/
+
 bool sear(ll a)
 {
     if(treesize==0) return false;
